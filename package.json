@@ -1,0 +1,10 @@
+{
+  "name": "blockchain-lab-local-evm",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Blockchain Lab local Ganache EVM and Solidity compiler for the cloud build",
+  "dependencies": {
+    "ganache": "7.9.2",
+    "solc": "0.8.20"
+  }
+}

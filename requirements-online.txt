@@ -1,0 +1,5 @@
+# A korábban Windows alatt ellenőrzött Python-könyvtárverziók.
+streamlit==1.66.1
+pandas==2.3.3
+web3==8.0.0
+py-solc-x==2.1.0

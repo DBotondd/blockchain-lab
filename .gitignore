@@ -1,0 +1,10 @@
+# Do not commit local environment, credentials or generated files.
+.venv/
+venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.streamlit/secrets.toml
+solidity/compiled_contracts.json

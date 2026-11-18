@@ -1,0 +1,12 @@
+# Render Dashboard: New > Blueprint > Connect repository > apply.
+services:
+  - type: web
+    name: blockchain-lab-demo
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /_stcore/health
+    envVars:
+      - key: APP_PASSWORD
+        sync: false

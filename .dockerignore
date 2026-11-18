@@ -1,0 +1,21 @@
+# Keep image minimal and do not upload local secrets or VCS history.
+.git
+.github
+.venv
+venv
+node_modules
+__pycache__
+*.py[cod]
+.pytest_cache
+.streamlit/secrets.toml
+.env
+.env.*
+*.log
+*.pdf
+*.zip
+*.png
+*.jpg
+*.jpeg
+*.csv
+*.xlsx
+solidity/compiled_contracts.json
